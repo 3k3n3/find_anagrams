@@ -17,9 +17,9 @@ def find_anagrams(word, anagram):
         aList.sort()
 
     if wList == aList:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
-find_anagrams("hello", "check")
-find_anagrams("below", "elbow")
+print(find_anagrams("hello", "check"))
+print(find_anagrams("below", "elbow"))
